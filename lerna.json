@@ -1,0 +1,26 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "command": {
+    "version": {
+      "allowBranch": [
+        "master",
+        "release/*"
+      ],
+      "amend": true,
+      "bump": "",
+      "conventionalCommits": true,
+      "exact": true,
+      "includeMergedTags": true,
+      "message": "chore(release): bumps versions",
+      "push": true,
+      "tagVersionPrefix": "v",
+      "yes": true
+    }
+  },
+  "ignoreChanges": [
+    "**/*.md",
+    "**/package.json"
+  ],
+  "npmClient": "yarn",
+  "version": "0.0.0"
+}
