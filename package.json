@@ -1,8 +1,15 @@
 {
+  "author": "Josema Pereira",
+  "description": "Basic CRUD using express + Lerna + TS",
+  "license": "MIT",
+  "main": "index.js",
   "name": "user-api",
   "version": "1.0.0",
-  "description": "Basic CRUD using express + Lerna + TS",
-  "main": "index.js",
-  "author": "Josema Pereira",
-  "license": "MIT"
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.2.0"
+  }
 }
