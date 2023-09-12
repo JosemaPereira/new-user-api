@@ -1,6 +1,6 @@
 # Users API
 
-This project contains a CRUD API example, using NodeJS/ExpressJS and MonoRepo architecture.
+This project contains an API using ExpressJS + TS and MonoRepo architecture.
 
 ## Build packages
 
