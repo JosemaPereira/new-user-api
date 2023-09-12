@@ -1,0 +1,8 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "Basic CRUD using express + Lerna + TS",
+  "main": "index.js",
+  "author": "Josema Pereira",
+  "license": "MIT"
+}
